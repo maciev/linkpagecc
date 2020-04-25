@@ -1,0 +1,73 @@
+[15-Apr-2020 14:25:31 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 14:25:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 14:30:33 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 14:30:34 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 14:31:29 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 14:31:29 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/linkbtad/public_html/app/core/Database.php on line 15
+[15-Apr-2020 18:34:35 UTC] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 18:35:41 UTC] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 18:36:00 UTC] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 14:48:01 America/New_York] PHP Notice:  Undefined index: days in /home/linkbtad/public_html/app/controllers/admin/AdminPackageUpdate.php on line 94
+[15-Apr-2020 14:51:52 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 14:52:49 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 14:57:45 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 14:58:15 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 15:00:19 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 15:00:47 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 15:11:41 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 181
+[15-Apr-2020 17:53:05 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 17:59:11 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[15-Apr-2020 17:59:26 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[16-Apr-2020 08:03:54 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[16-Apr-2020 08:04:12 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[16-Apr-2020 08:14:45 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[17-Apr-2020 16:20:19 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[17-Apr-2020 16:21:29 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 125
+[17-Apr-2020 16:21:36 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 625
+[17-Apr-2020 16:22:11 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 625
+[17-Apr-2020 16:22:16 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/link-path/wrapper.php on line 27
+[18-Apr-2020 08:54:11 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 08:56:45 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 08:57:09 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 09:09:17 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 181
+[18-Apr-2020 09:10:12 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[18-Apr-2020 09:17:09 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 09:17:13 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:06:28 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:06:41 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:09:36 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:10:30 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:11:05 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:11:13 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[18-Apr-2020 13:11:30 America/New_York] PHP Notice:  Undefined index: country in /home/linkbtad/public_html/app/controllers/link/Link.php on line 62
+[18-Apr-2020 13:14:52 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[18-Apr-2020 14:24:18 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 125
+[18-Apr-2020 14:24:28 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 125
+[18-Apr-2020 14:24:31 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 625
+[18-Apr-2020 16:59:07 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[19-Apr-2020 12:38:06 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[20-Apr-2020 01:11:12 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[20-Apr-2020 14:01:41 America/New_York] PHP Notice:  Undefined index: country in /home/linkbtad/public_html/app/controllers/link/Link.php on line 62
+[20-Apr-2020 14:04:13 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[20-Apr-2020 22:41:37 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 10:37:30 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 11:30:58 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 11:32:04 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 181
+[21-Apr-2020 11:33:15 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[21-Apr-2020 12:38:24 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 12:38:56 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 12:48:47 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 181
+[21-Apr-2020 12:51:03 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[21-Apr-2020 12:53:28 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 13:43:50 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[21-Apr-2020 13:52:10 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 181
+[21-Apr-2020 14:02:38 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[21-Apr-2020 14:57:22 America/New_York] PHP Notice:  Undefined index: domain_id in /home/linkbtad/public_html/app/controllers/LinkAjax.php on line 379
+[21-Apr-2020 16:09:49 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 01:30:48 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 08:30:43 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 08:31:10 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 08:46:15 America/New_York] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/linkbtad/public_html/themes/altum/views/admin/statistics/index.php on line 137
+[22-Apr-2020 09:14:47 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 09:15:11 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36
+[22-Apr-2020 10:04:02 America/New_York] PHP Notice:  Undefined index: content in /home/linkbtad/public_html/themes/altum/views/wrapper.php on line 36

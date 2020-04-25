@@ -1,0 +1,1607 @@
+{
+	"language_code": "en",
+
+	"global": {
+		"submit"						: "Submit",
+		"create"						: "Create",
+		"delete"						: "Delete",
+		"edit"							: "Edit",
+		"view"							: "View",
+		"update"						: "Update",
+		"enable"						: "Enable",
+		"disable"						: "Disable",
+		"hidden"						: "Hidden",
+		"language"						: "Language",
+		"choose_language"				: "Choose Language",
+		"close"							: "Close",
+		"search"						: "Search",
+		"go_back_button"				: "Go Back",
+		"yes"							: "Yes",
+		"no"							: "No",
+		"active"						: "Active",
+		"disabled"						: "Disabled",
+		"date_range_selector"			: "Select Range",
+		"clipboard_copy"				: "Copy to clipboard",
+		"verified"						: "Verified",
+		"captcha_placeholder"			: "Write the above text from the image",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Info!",
+			"success"					: "Success!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Are you sure you want to delete this?",
+            "user_package_is_expired"   : "Your current package has expired and your access is limited. Please get a new package!"
+		},
+
+		"success_message": {
+			"basic"						: "Your requested command was performed successfully!",
+			"user_activated"			: "Your account is now active!"
+		},
+
+		"error_message": {
+			"directory_not_writable"	: "Directory is not writable <strong>%s</strong>",
+			"empty_fields"				: "You must fill all the fields!",
+			"invalid_captcha"			: "The captcha code is not valid!",
+			"invalid_file_type"			: "Invalid file type!",
+			"file_upload"				: "Something happened while uploading the image and we could not process it.",
+			"invalid_csrf_token"		: "The action could not be finished because the protector has expired, please try again!",
+			"basic"						: "We could not perform your requested command!"
+		},
+
+		"menu": {
+			"home"						: "Home",
+			"logout"					: "Logout",
+			"settings"					: "Settings",
+			"admin"						: "Admin",
+			"website"					: "Visit website",
+			"admin_others"				: "Others"
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Toggle navigation",
+			"logo_alt"					: "Website Logo",
+			"captcha_alt"				: "Captcha",
+			"captcha_input"				: "Captcha Field"
+		},
+
+        "date": {
+			"locale"					: "en_US.UTF-8",
+			"datetime_readable_format"	: "j M, Y",
+			"datetime_ymd_format"		: "Y-m-d",
+			"datetime_his_format"		: "H:i:s",
+			"SET_THIS_AT_YOUR_OWN_RESPONSIBILITY": "Make sure to add only valid datetime formats.",
+
+			"now"						: "now",
+			"second"					: "second",
+			"seconds"					: "seconds",
+			"minute"					: "minute",
+			"minutes"					: "minutes",
+			"hour"						: "hour",
+			"hours"						: "hours",
+			"day"						: "day",
+			"days"						: "days",
+			"month"						: "month",
+			"months"					: "months",
+			"year"						: "year",
+			"years"						: "years",
+			"time_ago"					: "ago",
+			"time_until"				: "until",
+
+            "xDays"						: "%s days",
+            "xMonths"					: "%s months",
+            "xYears"					: "%s years",
+
+            "daily"						: "Daily",
+            "weekly"					: "Weekly",
+            "monthly"					: "Monthly",
+
+            "short_day_of_week": {
+                "1"						: "Mon",
+                "2"						: "Tue",
+                "3"						: "Wed",
+                "4"						: "Thu",
+                "5"						: "Fri",
+                "6"						: "Sat",
+                "7"						: "Sun"
+            }
+        },
+
+        "number": {
+            "decimal_point"				: ".",
+            "thousands_separator"		: ","
+        },
+
+		"email_notifications": {
+			"new_user_subject"			: "New User Registered!",
+			"new_user_body"				: "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome <strong>%s</strong> with the <strong>%s</strong> email to your website!",
+			"new_payment_subject"		: "New Payment via %s of %s %s!",
+			"new_payment_body"			: "Hey!<br /><br />A user just paid <strong>%s %s</strong> to the website!<br /><br />Here's to more earnings!"
+		},
+
+		"emails": {
+			"account_activation": {
+				"subject"				: "Welcome {{NAME}}! - Activation email",
+				"body"					: "Hey there {{NAME}},<br /><br />We are glad you joined us! <br /><br />One more step and you are ready,<br /><br />you just need to click the following link in order to join {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activate your account</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"lost_password": {
+				"subject"				: "Reset your password - {{WEBSITE_TITLE}}",
+				"body"					: "Hey {{NAME}},<br /><br />This is your reset password link: <a href=\"{{LOST_PASSWORD_LINK}}\">Reset Password</a><br /><br />If you did not request this, you can ignore it!<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			}
+		},
+
+		"footer": {
+			"description"				: "Your own footer text here.."
+		},
+
+        "package_settings": {
+            "no_ads"                    : "<i class=\"fa fa-eye-slash\"></i> No Ads",
+			"removable_branding"		: "<i class=\"fa fa-eye-slash\"></i> Removable LinkPage Branding",
+			"custom_branding"			: "<i class=\"fa fa-ad\"></i> Custom LinkPage Branding",
+			"custom_colored_links"		: "<i class=\"fa fa-paint-brush\"></i> Custom LinkPage Links Colors",
+			"statistics"				: "<i class=\"fa fa-chart-bar\"></i> Indepth Statistics",
+			"google_analytics"			: "<i class=\"fab fa-google\"></i> Google Analytics",
+			"facebook_pixel"			: "<i class=\"fab fa-facebook\"></i> Facebook Pixel",
+			"custom_backgrounds"		: "<i class=\"fa fa-fill\"></i> Custom LinkPage Backgrounds",
+			"verified"					: "<i class=\"fa fa-check-circle\"></i> Verified Checkmark",
+			"scheduling"				: "<i class=\"fa fa-clock\"></i> Links Scheduling",
+
+			"unlimited_projects_limit"	: "<i class=\"fa fa-infinity\"></i> Unlimited Projects",
+			"projects_limit"			: "<strong>%s</strong> Projects",
+
+			"unlimited_biolinks_limit"	: "<i class=\"fa fa-infinity\"></i> Unlimited LinkPages",
+			"biolinks_limit"			: "<strong>%s</strong> LinkPages",
+
+			"unlimited_links_limit"		: "<i class=\"fa fa-infinity\"></i> Unlimited Links",
+			"links_limit"				: "<strong>%s</strong> Links"
+        }
+	},
+
+	"page": {
+
+		"display": {
+			"edit"						: "Edit Page"
+		},
+
+		"info_message": {
+			"invalid_page"				: "The page you're looking for does not exist!"
+		}
+	},
+
+	"package": {
+		"title"							: "Package",
+		"header_new"					: "Choose Your Package",
+		"subheader_new"					: "Select one package to continue your subscription 🔥.",
+		"header_renew"					: "Renew Your Package",
+		"subheader_renew"				: "Select one package to renew your subscription 🔥.",
+		"header_upgrade"				: "Upgrade Your Package",
+		"subheader_upgrade"				: "Select one package to upgrade your subscription 🔥.",
+
+		"display": {
+			"per_month"					: "/ month",
+			"annual_price"				: "Annual Price: %s %s"
+		},
+
+		"free": {
+			"price"						: "Free"
+		},
+
+		"trial": {
+			"price"						: "Trial"
+		},
+
+		"button": {
+			"choose"					: "Choose Plan",
+			"disabled"					: "Disabled",
+			"already_free"				: "Your package"
+		}
+	},
+
+	"pay": {
+		"title"							: "Pay",
+		"header"						: "You chose the <span class=\"underline\">%s</span> package",
+		"subheader"						: "You are almost ready.",
+		"accept"						: "I confirm that I have read and understood the %s and %s of the site.",
+
+		"free": {
+			"free_already"				: "Your package is already this one, make sure to choose another one!",
+			"other_package_not_expired"	: "Your current package is not expired yet, you will get the free package after it expires!",
+			"choose_another_package"	: "Choose another Package"
+		},
+
+		"trial": {
+			"trial_done"				: "Your trial option was already used, you can't renew it anymore.",
+			"other_package_not_expired"	: "Your current package is not expired yet, if you start your trial it will override it!",
+			"choose_another_package"	: "Choose another Package",
+			"trial_start"				: "Start your Trial"
+		},
+
+		"custom_package": {
+			"payment_plan"				: "Choose your payment plan",
+			"monthly"					: "Monthly Payments",
+			"annual"					: "Annual Payments",
+			"annual_savings"			: "You save %s %s",
+			"payment_processor"			: "Choose your favorite way to pay",
+			"paypal_processor"			: "PayPal",
+			"stripe_processor"			: "Stripe",
+			"no_processor"				: "No Payment Processors are available at the moment.",
+			"payment_type"				: "Select your preferred type of payment",
+			"one_time_type"				: "One Time Payment",
+            "recurring_type"            : "Recurring Payment",
+			"pay"						: "Generate Payment"
+		},
+
+		"success_message": {
+			"package_trial_start"		: "Your trial period just started 🔥!",
+			"package_custom_start"		: "Your payment went through and your new membership is activated!",
+			"package_custom_will_start" : "Your payment was sent and your new membership will be activated!"
+		},
+
+		"error_message": {
+			"canceled_payment"			: "It seems you've canceled the payment for some reason.",
+			"failed_payment"			: "Something didn't work quite right, please try again if this persists contact the site admin."
+		}
+	},
+
+	"account": {
+		"title"							: "Account",
+		"menu"							: "Account",
+
+		"header": {
+			"header"					: "Account",
+			"last_activity"				: "Last active: %s"
+		},
+
+		"package": {
+			"header"				    : "%s Package",
+			"subheader"				    : "This is your current account package subscription.",
+			"subheader2"			    : "<strong>Expiration date:</strong> %s",
+            "cancel_subscription"       : "Cancel Subscription",
+			"upgrade_package"			: "Upgrade Package",
+			"renew_package"				: "Renew/Change Package"
+		},
+
+		"settings": {
+			"header"					: "Settings",
+
+			"email"						: "Email",
+			"name"						: "Name"
+		},
+
+		"change_password": {
+			"header"					: "Change Password",
+			"subheader"					: "If you do not want to change your password, do not fill any of those fields below.",
+
+			"current_password"			: "Current Password",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"delete": {
+			"header"					: "Delete Account",
+			"subheader"					: "By deleting the account, all of your stored data will be deleted. <br /> This action is irreversible once done."
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		},
+
+		"success_message": {
+			"account_updated"			: "Your account was updated!",
+            "subscription_canceled"     : "Your recurring subscription was canceled!"
+		}
+	},
+
+	"account_details": {
+		"title"								: "Account Details",
+		"menu"								: "Extra Details",
+		"header"							: "Account Details",
+
+		"payments": {
+			"header"						: "Your payments 💰",
+			"processor"						: "Processor",
+			"type"							: "Type",
+			"email"							: "Email",
+			"date"							: "Date",
+			"name"							: "Full Name",
+			"amount"						: "Amount",
+			"package_id"					: "Package",
+			"nr"							: "#",
+			"invoice"						: "Invoice"
+		},
+
+		"logs": {
+			"header"						: "Your activity 📚",
+			"subheader"						: "Your last recorded activity",
+			"type"							: "Type",
+			"ip"							: "IP",
+			"date"							: "Date"
+		},
+
+		"info_message": {
+			"no_payments"					: "At the moment there are no payments to show.."
+		}
+	},
+
+	"invoice": {
+		"print"							: "Print",
+		"invoice"						: "INVOICE",
+		"invoice_nr"					: "Invoice Nr",
+		"invoice_date"					: "Date",
+
+		"vendor": {
+			"header"					: "Vendor",
+			"name"						: "Name",
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"zip"						: "ZIP",
+			"country"					: "Country",
+			"email"						: "Email",
+			"phone"						: "Phone"
+		},
+
+		"customer": {
+			"header"					: "Customer",
+			"name"						: "Name",
+			"email"						: "Email"
+		},
+
+		"table": {
+			"item"						: "Item",
+			"amount"					: "Amount",
+			"item_value"				: "%s Package, %s",
+			"total"						: "Total",
+			"paid_via"					: "Paid via %s"
+		}
+	},
+
+	"reset_password": {
+		"title"							: "Reset Password",
+		"header"						: "Reset Password",
+
+		"form": {
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		},
+
+		"success_message": {
+			"password_updated"			: "Your password has been updated!"
+		}
+	},
+
+	"login": {
+		"menu"							: "Login",
+		"title"							: "Login",
+		"header"						: "Login",
+
+		"form": {
+			"email" 					: "Email Address",
+			"email_placeholder"			: "email@domain.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"remember_me"				: "Remember me",
+			"login"						: "Login"
+		},
+
+		"display": {
+			"register"					: "Don't have an account? %s",
+			"register_help"				: "Register",
+
+			"lost_password"				: "Lost Password",
+			"resend_activation"			: "Resend Activation",
+			"facebook"					: "%s Facebook Login",
+			"instagram"					: "%s Instagram Login"
+		},
+
+		"info_message": {
+			"logged_in"					: "Welcome back 🔥"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	: "Your login combination is not invalid!",
+			"user_not_active"			: "Your account is not confirmed or banned!",
+			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		}
+	},
+
+	"lost_password": {
+		"title"							: "Lost Password",
+		"header"						: "Lost Password",
+		"return"						: "Return to Login",
+
+		"form": {
+			"email" 					: "Email",
+			"email_placeholder"			: "email@domain.com"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Resend Activation",
+		"header"						: "Resend Activation Email",
+		"return"						: "Return to Login",
+
+		"form": {
+			"email" 					: "Email",
+			"email_placeholder"			: "email@domain.com"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+	"register": {
+		"title"							: "Register",
+		"menu"							: "Register",
+		"header"						: "Register",
+		"login"							: "Already have an account?",
+
+		"form": {
+			"name"						: "Name",
+			"name_placeholder"			: "Your full name",
+			"email"						: "Email",
+			"email_placeholder"			: "email@domain.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repeat Password",
+			"accept"					: "I confirm that I have read and understood the %s and %s of the site.",
+			"terms_and_conditions"		: "Terms and Conditions",
+			"privacy_policy"			: "Privacy Policy",
+			"register"					: "Register"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for your username field",
+			"email_verifier_api"		: "You are not allowed to use disposable email addresses 🤭"
+		},
+
+
+		"success_message": {
+			"registration"				: "Your account has been created, check your email for the activation link! ( Make sure to check your spam folder too )",
+			"login"						: "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+
+	"dashboard": {
+		"title"								: "Dashboard",
+		"menu"								: "Dashboard",
+
+		"header": {
+			"header"						: "Your dashboard",
+			"package"						: "Your current package.",
+			"package_expiration_date"		: "Your package expires",
+			"package_expiration_date_never"	: "Package does not expire",
+			"renew"							: "Renew / Upgrade",
+			"clicks"						: "Total clicks over all your links.",
+			"links"							: "Total links on your account."
+		},
+
+		"projects": {
+			"header"						: "Your Projects",
+			"subheader"						: "A project can contain multiple LinkPages or Shortened links.",
+			"create"						: "Create Project",
+
+			"name"							: "Name",
+			"domain"						: "Domain",
+			"date"							: "Created",
+
+			"no_projects"					: "There are no projects at the moment, why not create one? 🔥"
+		}
+	},
+
+	"project": {
+		"title"								: "%s Project",
+
+		"header": {
+			"header"						: "%s Project",
+			"subheader"						: "All the links created in this project.",
+			"projects"						: "Back to Projects List"
+		},
+
+		"links": {
+			"header"						: "Project Links",
+			"create"						: "Create",
+
+			"clicks"						: "Total Unique Clicks",
+			"type"							: "Type",
+			"date"							: "Launched on",
+			"is_enabled"					: "Status",
+			"is_enabled_tooltip"			: "Change the status",
+
+			"no_links"						: "There are no links for this project, why not create one? 🔥"
+		},
+
+		"error_message": {
+			"projects_limit"				: "You have exceeded the limit of projects on your package."
+		}
+
+	},
+
+	"link": {
+		"branding"							: "🔥 by LinkPage",
+		"title"								: "%s Link",
+
+		"header": {
+			"header"						: "%s",
+			"subheader"						: "Your link is %s",
+			"links"							: "Back to Links List",
+
+			"settings_tab"					: "Settings",
+			"links_tab"						: "Links",
+			"biolinks_settings"				: "Back to LinkPage"
+		},
+
+		"settings": {
+			"header"						: "Settings",
+			"link"							: "Settings",
+
+			"location_url"					: "Long Url",
+			"location_url_placeholder"		: "https://domain.com/demo/long-url-demo",
+			"url"							: "Short Url",
+			"url_placeholder"				: "your-custom-alias",
+			"url_help"						: "Leave empty for a random generated one.",
+			"schedule"						: "Schedule",
+			"schedule_help"					: "Set an exact date when the link will work.",
+			"start_date"					: "Start Date",
+			"end_date"						: "End Date",
+			"image"							: "Avatar",
+			"image_help"					: "",
+			"image_status"					: "Your image was selected.",
+			"image_remove"					: "Remove selected image.",
+			"title"							: "Title",
+			"description"					: "Description",
+            "text_color"                    : "Text Color",
+			"background_type"				: "Background Type",
+			"background_type_preset"		: "Preset",
+			"background_type_color"			: "Custom Color",
+			"background_type_gradient"		: "Custom Gradient",
+			"background_type_gradient_color_one": "Color One",
+			"background_type_gradient_color_two": "Color Two",
+			"background_type_image"			: "Custom Image",
+			"display_branding"				: "Display Branding",
+			"branding": {
+				"name"						: "Branding Name",
+				"name_help"					: "Leave empty to have the default site branding.",
+				"url"						: "Branding URL"
+			},
+			"google_analytics"				: "Google Analytics ID",
+			"google_analytics_help"			: "Enable tracking with Google Analytics by adding your analytics ID (ex: Example: UA-22222222-33).",
+			"facebook_pixel"				: "Facebook Pixel",
+			"facebook_pixel_help"			: "Enable the Facebook Pixel by adding your only the Facebook Pixel ID."
+		},
+
+		"links": {
+			"link_sort"						: "Touch and drag to reorder.",
+			"no_links"						: "😕 There are no links created at the moment..",
+			"settings"						: "Settings",
+			"switch_status"					: "Switch Status"
+		},
+
+		"statistics": {
+			"header"						: "Statistics",
+			"link"							: "Statistics",
+			"no_logs"						: "At the moment there are no statistics 😕.",
+			"missing_statistics_package"	: "Unfortunately you do not have access to detailed statistics with your current package 😔.",
+
+			"clicks_chart"					: "Clicks Chart",
+			"impression"					: "Impressions",
+			"unique"						: "Uniques",
+
+			"location"						: "Locations",
+			"location_help"					: "Detected countries that accessed the link.",
+			"os"							: "Operating Systems",
+			"os_help"						: "Find which OS is the most popular among your visitors.",
+			"browser"						: "Browsers",
+			"browser_help"					: "Find what browsers your visitors are using.",
+			"referer"						: "Referers",
+			"referer_help"					: "Where is your traffic coming from?",
+			"referer_direct"				: "Direct, Email, SMS"
+		},
+
+		"success_message": {
+			"settings_updated"				: "Update successful!"
+		},
+
+		"error_message": {
+			"blacklisted_url"				: "This custom url is not available for usage!",
+			"blacklisted_domain"			: "This domain has been blacklisted, you can't use it!",
+			"blacklisted_keyword"			: "This custom url is blacklisted!",
+			"blacklisted_location_url"		: "This url has been blacklisted, you can't use it!",
+			"invalid_location_url"			: "Your entered link is invalid!"
+		},
+
+		"biolink": {
+			"name"                          : "LinkPage",
+			"icon"							: "fa fa-hashtag",
+			"color"							: "#0089ff",
+
+			"image_alt"						: "Avatar",
+			"title_default"					: "My Featured Links 🔥",
+			"description_default"			: "",
+
+			"link": {
+				"name"                          : "Link",
+				"icon"							: "fa fa-link",
+				"color"							: "#00526b",
+
+				"name_default"					: "Your own link here"
+			},
+
+			"twitch": {
+				"name"                          : "Twitch",
+				"icon"							: "fab fa-twitch",
+				"color"							: "#6441a5"
+			},
+
+			"youtube": {
+				"name"                          : "YouTube",
+				"icon"							: "fab fa-youtube",
+				"color"							: "#ff0000"
+			},
+
+			"soundcloud": {
+				"name"                          : "SoundCloud",
+				"icon"							: "fab fa-soundcloud",
+				"color"							: "#ff8800"
+			},
+
+			"vimeo": {
+				"name"                          : "Vimeo",
+				"icon"							: "fab fa-vimeo",
+				"color"							: "#1ab7ea"
+			},
+
+			"spotify": {
+				"name"                          : "Spotify",
+				"icon"							: "fab fa-spotify",
+				"color"							: "#1db954"
+			}
+		},
+
+		"link": {
+			"name"                          : "Link",
+			"icon"							: "fa-link",
+			"color"							: "#00526b"
+		}
+	},
+
+	"index": {
+		"title"							: "Multiple Bio Links for Instagram",
+		"header"						: "Get the most of your<br />Instagram Bio Link",
+		"subheader"						: "Create shorted links, unique LinkPages and get proper statistics of your visitors.",
+		"sign_up"						: "Get Started ⚡️",
+
+		"presentation": {
+			"header"					: "Create beautiful <u>LinkPages</u>",
+			"subheader"					: "Create and manage multiple LinkPages for your team from a single dashboard."
+		},
+
+		"presentation2": {
+			"header"					: "Manage multiple projects",
+			"subheader"					: "One project for you, one for your friend, one for your company. One account is all you need."
+		},
+
+		"presentation3": {
+			"header"					: "LinkPages & Shorted links",
+			"subheader"					: "Yes! You can use our service as a shortener as well."
+		},
+
+		"presentation4": {
+			"header"					: "Bring creativity to life",
+			"subheader"					: "Add your own touch to your LinkPage with our editor and stand out from the crowd."
+		},
+
+		"presentation5": {
+			"header"					: "Day by day statistics",
+			"subheader"					: "Get to know your audience with our detailed statistics and if those are not enough, you can even integrate Google Analytics."
+		},
+
+		"setup": {
+			"header"					: "Easy Setup & Integrate on any Website.",
+			"description"				: "These are just a few examples. <br />Any website can run our notifications.",
+
+			"shopify"					: "Shopify",
+			"wordpress"					: "Wordpress",
+			"zapier"					: "Zapier",
+			"squarespace"				: "Squarespace"
+		},
+
+		"tools": {
+			"header"					: "Your Free Marketing Tools 🔥",
+			"subheader"					: "Choose from a wide variety of notifications.",
+
+			"preview"					: "Notification Preview",
+			"preview_description"		: "Choose any type of notification and preview it live."
+		},
+
+		"pricing": {
+			"header"					: "Choose your package ✅",
+			"subheader"					: "Choose and get your plan based on your needs."
+		}
+	},
+
+	"admin_pages": {
+		"title"							: "Pages Management",
+		"menu"							: "Pages",
+		"header"						: "Pages Management",
+		"add_new"						: "Add Page",
+
+		"pages": {
+			"title"						: "Name",
+			"url"						: "Url",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"type"						: "Type",
+			"actions"					: "Actions"
+		},
+
+		"input": {
+			"title"						: "Page Title",
+			"url"						: "Slug",
+			"url_internal"				: "Slug",
+			"url_external"				: "Full External Url",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer",
+			"type"						: "Type",
+			"type_internal"				: "Internal",
+			"type_external"				: "External"
+		}
+	},
+
+	"admin_page_create": {
+		"title"							: "Add Page",
+		"header"						: "Add Page"
+	},
+
+	"admin_page_update": {
+		"title"							: "Page Update",
+		"header"						: "Page Update"
+	},
+
+	"admin_packages": {
+		"title"							: "Packages Management",
+		"menu"							: "Packages",
+		"header"						: "Packages Management",
+		"add_new"						: "Add Package",
+		"header_settings"				: "Package Settings",
+		"subheader_settings"			: "Choose which features to enable for this package.",
+
+		"table": {
+			"name"						: "Package Name",
+			"custom_help"				: "Custom packages can be defined directly from the User Update page.",
+			"monthly_price"				: "Monthly Price",
+			"annual_price"				: "Annual Price",
+			"users"						: "Users",
+			"is_enabled"				: "Status"
+		},
+
+		"input": {
+			"trial": {
+				"name"					: "Name",
+				"days"					: "Days",
+				"days_help"				: "The number of days that the trial package can be used."
+			},
+
+			"free": {
+				"name"					: "Name"
+			},
+
+			"name"						: "Package Name",
+			"monthly_price"				: "Monthly Price (%s)",
+			"annual_price"				: "Annual Price (%s)",
+			"is_enabled"				: "Enabled",
+
+			"projects_limit"			: "Total Projects Limit",
+			"projects_limit_help"		: "Set -1 for unlimited.",
+			"biolinks_limit"			: "Total LinkPages Limit",
+			"biolinks_limit_help"		: "The total amount of LinkPages that a user can create. Set -1 for unlimited.",
+			"links_limit"				: "Total Links Limit",
+			"links_limit_help"			: "The total amount of links that a user can create (shorted links). Set -1 for unlimited.",
+			"no_ads"					: "No Ads",
+			"no_ads_help"				: "Enabling this will make all people having this package to not see any ads.",
+			"removable_branding"		: "Removable Footer Branding",
+			"removable_branding_help"	: "This gives the option for people to remove branding from the LinkPage footer.",
+			"custom_branding"			: "Custom Footer Branding",
+			"custom_branding_help"		: "This gives the option for people to add their custom branding for the LinkPage footer.",
+			"custom_colored_links"		: "Colored Links",
+			"custom_colored_links_help"	: "Gives the user the ability to customize the color of their LinkPage links",
+			"statistics"				: "Advanced Statistics",
+			"statistics_help"			: "Gives the user the ability to check more in depth statistics and select the time frame",
+			"google_analytics"			: "Google Analytics",
+			"google_analytics_help"		: "Gives the user the ability to add Google Analytics on their LinkPages.",
+			"facebook_pixel"			: "Facebook Pixel",
+			"facebook_pixel_help"		: "Gives the user the ability to add Facebook Pixel on their LinkPages.",
+			"custom_backgrounds"		: "Custom Backgrounds",
+			"custom_backgrounds_help"	: "Gives the user the ability to add custom backgrounds on their LinkPages ( colors, gradients and actual images ).",
+			"verified"					: "Verified Checkmark",
+			"verified_help"				: "Gives the user the verified checkmark on all their LinkPages.",
+			"scheduling"				: "Links Scheduling",
+			"scheduling_help"			: "Gives the user the ability to schedule links."
+		}
+	},
+
+	"admin_package_create": {
+		"title"							: "Add Package",
+		"menu"							: "Add Package",
+		"header"						: "Add Package"
+	},
+
+	"admin_package_update": {
+		"title"							: "Edit Package",
+		"header"						: "Edit %s Package",
+
+		"update_users_package_settings": {
+			"header"					: "Update Package Subscribers",
+			"subheader"					: "By updating the package subscribers you will overwrite all their current settings with the saved settings of this package."
+		}
+	},
+
+	"admin_payments": {
+		"title"							: "Payments List",
+		"header"						: "Payments List",
+		"menu"							: "Payments",
+
+		"table": {
+			"processor"					: "Processor",
+			"user_email"				: "User",
+			"email"						: "Email",
+			"user"						: "User",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: "",
+			"stripe"					: "Stripe",
+			"paypal"					: "PayPal"
+		},
+
+		"display": {
+			"search_placeholder"		: "Search by username, name or email.."
+		}
+	},
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"clicks_month" 				: "Link Clicks this month",
+			"clicks"					: "Total Link Clicks",
+			"payments_month"			: "Payments this month",
+			"payments"					: "Total Payments",
+			"earnings_month"			: "Earnings this month",
+			"earnings"					: "Total Earnings",
+			"active_users_month"		: "Active Users this month",
+			"active_users"				: "Total Users",
+			"latest_users"				: "Latest Accounts",
+			"latest_payments"			: "Latest Payments"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"type"						: "Type",
+			"date"						: "Date",
+			"actions"					: "Actions"
+		},
+
+		"users": {
+			"header"					: "Latest Users",
+
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Status"
+		},
+
+		"payments": {
+			"header"					: "Latest Payments",
+
+			"user"						: "User",
+			"type"						: "Type",
+			"email"						: "Email",
+			"name"						: "Name",
+			"date"						: "Date"
+		}
+	},
+
+	"admin_users": {
+		"title"							: "Users Management",
+		"header"						: "Users Management",
+		"menu"							: "Users",
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"active"					: "Status",
+			"package_id"				: "Package",
+			"registration_date"			: "Reg. Date",
+			"actions"					: "Actions"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Owner",
+			"package"					: "Current Package"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+
+		"error_message": {
+			"self_delete"				: "You can't delete yourself!",
+			"self_status"				: "You can't change your own status!"
+		},
+
+		"display": {
+			"search_placeholder"		: "Search by username, name or email.."
+		}
+	},
+
+	"admin_user_create": {
+		"title"							: "Create User",
+		"header"						: "Create User",
+		"menu"							: "Create User",
+
+		"form": {
+			"name"						: "Name",
+			"name_placeholder"			: "Your full name",
+			"email"						: "Email",
+			"email_placeholder"			: "email@domain.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repeat Password",
+			"create"					: "Create User"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"email_exists"				: "This email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for the username field"
+		},
+
+		"success_message": {
+			"created"					: "Account has been created!"
+		}
+	},
+
+	"admin_user_update": {
+		"title"							: "Edit User",
+		"header"						: "Edit User",
+
+		"main": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Account Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"type"						: "User Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User"
+		},
+
+		"package": {
+			"header"					: "Package",
+			"header_help"				: "Change and update the package of the user.",
+			"package_id"			    : "Current Package",
+			"package_expiration_date"   : "Package Expiration Date",
+			"package_trial_done"		: "Package Trial Done"
+		},
+
+		"change_password": {
+			"header"					: "Change Password",
+			"header_help"				: "Leave it empty if you don't want to change the password!",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"invalid_account"			: "That account wasn't found!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match!"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "View User",
+		"header"						: "View User",
+
+		"main": {
+			"points"					: "Current Points",
+			"ip"						: "IP",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Account Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"type"						: "User Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password",
+			"last_activity"				: "Last Active",
+			"last_user_agent"			: "Last User Agent",
+			"package_trial_done"		: "Package Trial Done",
+			"package"					: "Current Package",
+			"package_expiration_date"	: "Package Expiration Date",
+			"total_logins"				: "Total Logins",
+			"language"					: "Language"
+		},
+
+		"payments": {
+			"header"					: "Payments",
+
+			"username"					: "Username",
+			"date"						: "Date",
+			"expiration_date"			: "Expiration Date",
+			"no_expiration_date"		: "N/A",
+			"type"						: "Type",
+			"processor"					: "",
+			"email"						: "Email",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"logs": {
+			"header"						: "Last Activity 📚",
+			"subheader"						: "Last recorded activity",
+			"type"							: "Type",
+			"ip"							: "IP",
+			"date"							: "Date"
+		},
+
+		"info_message": {
+			"no_payments"			    : "At the moment there are no transactions to show.."
+		}
+
+	},
+
+	"admin_links": {
+		"title"							: "Links Management",
+		"header"						: "Links Management",
+		"subheader"						: "Links that have been created by the users on your platform.",
+		"menu"							: "Links",
+
+		"table": {
+			"type"						: "Type",
+			"email"						: "User",
+			"url"						: "URL",
+			"clicks"					: "Clicks",
+			"is_enabled"				: "Status",
+			"date"						: "Date",
+			"actions"					: "Actions"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Owner",
+			"package"					: "Current Package"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this link, everything that is associated to that link will be deleted!"
+		},
+
+		"display": {
+			"location_url"				: "Open Link",
+			"search_placeholder"		: "Search by name or email.."
+		}
+	},
+
+	"admin_domains": {
+		"title"							: "Custom Domains Management",
+		"header"						: "Custom Domains Management",
+		"subheader"						: "Custom Domains for your users to use if they need or want.",
+		"menu"							: "Custom Domains",
+
+		"table": {
+			"type"						: "Type",
+			"host"						: "URL",
+			"links"						: "Links",
+			"date"						: "Date",
+			"actions"					: "Actions"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this domain, everything that is associated to that domain (including the links) will be deleted!"
+		},
+
+		"display": {
+			"type_global"				: "Global",
+			"search_placeholder"		: "Search by name or email.."
+		}
+	},
+
+	"admin_domain_create": {
+		"title"							: "Add Custom Domain",
+		"header"						: "Add Custom Domain",
+		"subheader"						: "Make sure to properly read the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> on how to setup Multiple Domains.",
+		"menu"							: "Add Custom Domain",
+
+		"form": {
+			"scheme"					: "Scheme",
+			"host"						: "Domain / Subdomain",
+			"host_placeholder"			: "domain.com",
+			"host_help"					: "Only <code>subdomain.domain.com</code> and <code>domain.com</code> formats are allowed (subdomains or root domains).",
+			"create"					: "Add Domain"
+		},
+
+
+		"success_message": {
+			"created"					: "Custom Domain has been created!"
+		}
+	},
+
+	"admin_domain_update": {
+		"title"							: "Update Custom Domain",
+		"header"						: "Update Custom Domain",
+		"subheader"						: "Make sure to properly read the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> on how to setup Multiple Domains.",
+		"menu"							: "Update Custom Domain"
+	},
+
+	"admin_settings": {
+		"title"							: "Website Settings",
+		"menu"							: "Website Settings",
+		"header"						: "Website Settings",
+
+		"tab": {
+			"main"						: "Main",
+			"links"						: "Links",
+			"payment"					: "Payment",
+			"business"					: "Business",
+			"facebook"					: "Facebook Login",
+			"instagram"					: "Instagram Login",
+			"captcha"					: "Captcha",
+			"ads"						: "Ads",
+			"socials"					: "Socials",
+			"smtp"						: "SMTP",
+			"custom"					: "Custom JS / CSS",
+			"email_notifications"		: "Email Notifications",
+            "cron"                      : "Cron"
+		},
+
+		"main": {
+			"title"						: "Website title",
+			"default_language"			: "Default Language",
+			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg, png and svg accepted. Recommended size: Max height of 40px and transparrent.",
+			"logo_remove"				: "Remove Logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "jpg, jpeg, png and ico accepted.",
+			"favicon_remove"			: "Remove Favicon",
+			"email_confirmation"		: "Registration Confirmation via Email",
+			"register_is_enabled"		: "Registration Is Enabled",
+			"register_is_enabled_help"	: "Disable / Enable User Registration depending on your usage of the platform.",
+			"time_zone"					: "Time Zone",
+			"index_url"					: "Custom Index URL",
+			"index_url_help"			: "Set the full custom index url ( ex: https://google.com/ ) if you want to completely disable the default landing page of the product. Helpful when you want to have your own landing page. Leave empty to disable.",
+			"terms_and_conditions_url"		: "Terms and Conditions URL",
+			"terms_and_conditions_url_help"	: "Link to the terms and conditions of the website. Can be a link created with the Pages creator from the sidebar.",
+			"privacy_policy_url"			: "Privacy Policy URL",
+			"privacy_policy_url_help"		: "Link to the privacy policy of the website. Can be a link created with the Pages creator from the sidebar."
+		},
+
+		"links": {
+			"blacklisted_domains"		: "Blacklisted Domains",
+			"blacklisted_domains_help"	: "Comma separated values of domains ( domain.com, domain2.com ..etc ). People will not be able to shorten / add any domain that is included in this list.",
+			"blacklisted_keywords"		: "Blacklisted Keywords",
+			"blacklisted_keywords_help"	: "Comma separated values of domains ( word1, word2, word3 ..etc ). People will not be able to use any custom url that is included in this list.",
+
+			"phishtank"					: "Phishtank API",
+			"phishtank_help"			: "Phishtank.com is an online database of phishing URL's. The integration will enable URL's checking before users are trying to short them and make sure they are not phishing sites.",
+			"phishtank_is_enabled"		: "Is Enabled",
+			"phishtank_api_key"			: "Phishtank API Key",
+			"phishtank_api_key_help"	: "Please refer to the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> to find out where to get the key.",
+
+			"google_safe_browsing"					: "Google Safe Browsing API",
+			"google_safe_browsing_help"				: "The integration will enable URL's checking before users are trying to short them and make sure they are not suspicious or dangerous sites.",
+			"google_safe_browsing_is_enabled"		: "Is Enabled",
+			"google_safe_browsing_api_key"			: "Google Safe Browsing API Key",
+			"google_safe_browsing_api_key_help"		: "Please refer to the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> to find out where to get the key."
+		},
+
+		"payment": {
+			"is_enabled"				: "Payments System Is Enabled",
+			"is_enabled_help"			: "Disabling the payment system will remove all the options for the users to upgrade their accounts or see any payment related information.",
+			"brand_name"				: "Brand Name",
+			"brand_name_help"			: "The brand name will be used for displaying the brand when users purchase via payment gates. (ex: paypal)",
+			"currency"					: "Currency",
+			"currency_help"				: "Currency Code for the payments (ex: USD).",
+
+			"paypal"					: "Paypal Settings",
+			"paypal_help"				: "Please refer to the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> to find out where to get the keys.",
+			"paypal_is_enabled"			: "Is Enabled",
+			"paypal_mode"				: "Mode",
+			"paypal_mode_help"			: "live - production, sandbox - testing purposes",
+			"paypal_client_id"			: "Client Id",
+			"paypal_secret"				: "Secret",
+
+			"stripe_help"				: "Please refer to the <a href=\"https://altumcode.link/biolinks-docs\">Documentation</a> to find out where to get the keys.",
+			"stripe"					: "Stripe Settings",
+			"stripe_is_enabled"			: "Is Enabled",
+			"stripe_publishable_key"	: "Publishable Key",
+			"stripe_secret_key"			: "Secret Key",
+			"stripe_webhook_secret"		: "Webhook Secret"
+		},
+
+		"business": {
+			"header"					: "Business Details",
+			"subheader"					: "These details will be used when generating invoices for the user.",
+			"invoice_is_enabled"		: "Invoices System Is Enabled",
+			"invoice_is_enabled_help"	: "This option will determine if users will be able to see invoices for their payments or not.",
+			"name"						: "Name",
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"zip"						: "ZIP",
+			"country"					: "Country",
+			"email"						: "Email",
+			"phone"						: "Phone",
+			"tax_type"					: "Tax Type",
+			"tax_type_placeholder"		: "ex: VAT",
+			"tax_id"					: "Tax ID"
+		},
+
+		"captcha": {
+			"recaptcha"					: "Google ReCaptcha",
+			"recaptcha_is_enabled"		: "Enable Google ReCaptcha",
+			"recaptcha_is_enabled_help"	: "When Google Recaptcha is disabled a more basic captcha will be available.",
+			"recaptcha_public_key"		: "Public Key",
+			"recaptcha_private_key"		: "Private Key"
+		},
+
+		"facebook": {
+			"is_enabled"				: "Is Enabled",
+			"app_id"					: "App Id",
+			"app_secret"				: "App Secret"
+		},
+
+		"instagram": {
+			"is_enabled"				: "Is Enabled",
+			"client_id"					: "Client Id",
+			"client_secret"				: "Client Secret"
+		},
+
+		"ads": {
+			"ads_help"					: "These fields accept text or html.",
+
+			"header"					: "Header",
+			"footer"					: "Footer"
+		},
+
+		"socials": {
+			"socials_help"				: "Social links to be displayed in the footer of the website. Enter only the id / name of the page",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "Youtube"
+		},
+
+		"smtp": {
+			"host"						: "Host",
+			"host_help"					: "If there are no values entered in this field then the system will try to use the default mail function.",
+			"from"						: "From Email",
+			"from_help"					: "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"encryption"				: "Encryption",
+			"port"						: "Port",
+			"auth"						: "Authentication",
+			"username"					: "Username",
+			"password"					: "Password"
+		},
+
+		"custom": {
+			"head_js"                   : "Head Javascript",
+			"head_js_help"              : "Add your own tracking js code ( ex: Google Analytics ).",
+			"head_css"                  : "Custom CSS",
+			"head_css_help"             : "Add custom CSS in case you want to overwrite certain styles of the website."
+		},
+
+		"email_notifications": {
+			"emails"							: "Emails to be notified",
+			"emails_help"						: "Emails that will receive a notification when one of the bottom actions are performed. Add valid email addresses separated by a comma.",
+			"new_user"							: "New User",
+			"new_user_help"						: "Receive an email when a new users registers to the website.",
+			"new_payment"						: "New Payment",
+			"new_payment_help"					: "Receive an email when a new payment is successfully processed."
+		},
+
+        "cron": {
+            "url"                               : "Cron Job Url",
+            "url_help"                          : "This cron job url contains your key of access also. Only calls with this exact url will work.",
+
+            "reset_date"                        : "Last Reset Date - Monthly Notifications Impressions"
+        },
+
+		"button": {
+			"test_email"						: "Test Email Settings",
+			"test_email_help"					: "It will send an email to the value from the <strong>From</strong> field that you set above. Make sure to first save the settings!"
+		},
+
+		"success_message": {
+			"saved"								: "Website settings have been saved!",
+			"email"								: "The test email has been sent successfully!"
+		},
+
+		"error_message": {
+			"email"								: "Test email failed: %s"
+		}
+
+	},
+
+	"admin_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Statistics",
+		"header"						: "Statistics",
+		"subheader"						: "See how your website evolves throughout time.",
+
+		"display": {
+			"date_range"				: "Date Range"
+		},
+
+		"sales": {
+			"header"					: "Your website's generated sales",
+			"subheader"					: "%s sales and generated a revenue of %s %s",
+			"no_sales"					: "You don't have any sales yet. Keep on going!",
+			"chart_total_sales"			: "Total Sales",
+			"chart_total_earned"		: "Total Earned"
+		},
+
+		"growth": {
+			"header"					: "Growth",
+			"subheader"					: "Day by day growth of your website.",
+			"chart_users"				: "New Users",
+			"chart_projects"			: "New Projects",
+			"chart_links"				: "New Links"
+		},
+
+		"track_links": {
+			"header"					: "Track Links",
+			"subheader"					: "Visits / Clicks on the links that are generated on your website.",
+			"impression"				: "Impressions",
+			"unique"					: "Uniques",
+			"clicks_chart"				: "Clicks Chart",
+
+			"location"					: "Locations",
+			"location_help"				: "Detected countries that accessed the link.",
+			"os"						: "Operating Systems",
+			"os_help"					: "Find which OS is the most popular among your visitors.",
+			"browser"					: "Browsers",
+			"browser_help"				: "Find what browsers your visitors are using.",
+			"referer"					: "Referers",
+			"referer_help"				: "Where is your traffic coming from?",
+			"referer_direct"			: "Direct, Email, SMS"
+		},
+
+		"top_links": {
+			"header"					: "Links Types Usage",
+			"subheader"					: "Here you can see the most used links types created by the users of your website. (These statistics are not based on the selected timeframe)",
+			"type"						: "Link Type",
+			"total"						: "Total"
+		},
+
+		"top_packages": {
+			"header"					: "Most used Packages",
+			"subheader"					: "Here you can see the most used Packages Types by the users of your website. (These statistics are not based on the selected timeframe)",
+			"package_id"				: "Package",
+			"total"						: "Total"
+		}
+	},
+
+	"notfound": {
+		"title"							: "Not found",
+		"header"						: "404 Not Found",
+		"subheader"						: "The page you’re looking for was not found."
+	},
+
+	"create_project_modal": {
+		"header"						: "Create New Project",
+		"subheader"						: "A project can manage multiple LinkPages and shorted links.",
+
+		"input": {
+			"name"						: "Name"
+		},
+
+		"success_message": {
+			"created"					: "The new project is now created!",
+			"deleted"					: "The project was deleted!"
+		},
+
+		"error_message": {
+			"projects_limit"			: "Your plan does not allow creating more projects 😔."
+		}
+	},
+
+	"create_link_modal": {
+		"header"						: "Create a New Link",
+		"subheader"						: "Easily shorten the links that you want. More settings are available after the creation of the link.",
+
+		"input": {
+			"location_url"				: "Long URL",
+			"location_url_placeholder"	: "https://domain.com/demo/long-url-demo",
+			"url"						: "Short URL",
+			"url_placeholder"			: "your-custom-alias",
+			"url_help"					: "Leave empty for a random generated one.",
+
+			"submit"					: "Shorten URL"
+		},
+
+		"error_message": {
+			"links_limit"				: "Your plan exceeded the maximum amount of links.",
+			"url_exists"				: "Your selected Short URL already exists. Please choose a different one."
+		}
+	},
+
+	"create_biolink_modal": {
+		"header"						: "Create a New LinkPage",
+		"subheader"						: "More settings are available after the creation of the LinkPage.",
+
+		"input": {
+			"url"						: "LinkPage URL",
+			"url_placeholder"			: "your-custom-alias",
+			"url_help"					: "Leave empty for a random generated one.",
+
+			"submit"					: "Create LinkPage"
+		},
+
+		"error_message": {
+			"biolinks_limit"			: "Your plan exceeded the maximum amount of LinkPages.",
+			"url_exists"				: "Your selected LinkPage URL already exists. Please choose a different one."
+		}
+	},
+
+	"create_biolink_link_modal": {
+		"header"						: "Create a New Link",
+		"subheader"						: "Shorten and add a new link to you LinkPage. More settings are available after the creation of the link.",
+
+		"input": {
+			"url"						: "Short URL",
+			"url_placeholder"			: "your-custom-alias",
+			"url_help"					: "Leave empty for a random generated one.",
+			"location_url"				: "Destination URL",
+			"location_url_placeholder"	: "https://domain.com/demo/url-demo",
+			"name"						: "Name",
+			"text_color"				: "Text Color",
+			"background_color"			: "Background Color",
+			"outline"					: "Outline",
+			"icon"						: "Icon",
+			"icon_placeholder"			: "ex: fab fa-instagram",
+			"icon_help"					: "FontAwesome icon class. Leave empty for no icon.",
+			"border_radius"				: "Border Radius",
+			"border_radius_straight"	: "Straight",
+			"border_radius_round"		: "Round",
+			"border_radius_rounded"		: "Rounded",
+			"animation"					: "Animation",
+
+			"submit"					: "Add URL"
+		},
+
+		"error_message": {
+			"links_limit"				: "Your plan exceeded the maximum amount of links.",
+			"url_exists"				: "Your selected Short URL already exists. Please choose a different one."
+		}
+	},
+
+	"create_biolink_youtube_modal": {
+		"header"						: "Add a YouTube video",
+		"subheader"						: "Paste in your YouTube video URL and we will show it as a video on your profile.",
+
+		"input": {
+			"location_url"				: "YouTube Video URL",
+			"location_url_placeholder"	: "https://www.youtube.com/watch?v=2a8PgqWrc_4",
+
+			"submit"					: "Add Video"
+		}
+	},
+
+	"create_biolink_twitch_modal": {
+		"header"						: "Add a Twitch video",
+		"subheader"						: "Paste in your Twitch URL and we will show it as a video on your profile.",
+
+		"input": {
+			"location_url"				: "Twitch URL",
+			"location_url_placeholder"	: "https://www.twitch.tv/dota2ti",
+
+			"submit"					: "Add Video"
+		}
+	},
+
+	"create_biolink_vimeo_modal": {
+		"header"						: "Add a Vimeo video",
+		"subheader"						: "Paste in your Vimeo URL and we will show it as a video on your profile.",
+
+		"input": {
+			"location_url"				: "Vimeo URL",
+			"location_url_placeholder"	: "https://vimeo.com/43338103",
+
+			"submit"					: "Add Video"
+		}
+	},
+
+	"create_biolink_soundcloud_modal": {
+		"header"						: "Add a Soundcloud song",
+		"subheader"						: "Paste in your Soundcloud URL and we will show it as a playable song on your profile.",
+
+		"input": {
+			"location_url"				: "Soundcloud URL",
+			"location_url_placeholder"	: "https://soundcloud.com/octobersveryown/duppy-freestyle",
+
+			"submit"					: "Add Song"
+		}
+	},
+
+	"create_biolink_spotify_modal": {
+		"header"						: "Add a Spotify Song / Album",
+		"subheader"						: "Paste in your Spotify Song, Album, Show or Episode URL and we will show it as a player on your profile.",
+
+		"input": {
+			"location_url"				: "Spotify URL",
+			"location_url_placeholder"	: "https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb",
+
+			"submit"					: "Add Link"
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No data available in table",
+		"sInfo"							: "Showing _START_ to _END_ of _TOTAL_ entries",
+		"sInfoEmpty"					: "Showing 0 to 0 of 0 entries",
+		"sInfoFiltered"					: "(filtered from _MAX_ total entries)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Loading...",
+		"sProcessing"					: "<div class=\"spinner-grow\"><span class=\"sr-only\">Loading...</span></div>",
+		"searchPlaceholder"				: "Search..",
+		"search"						: "",
+		"sZeroRecords"					: "No matching records found",
+		"oPaginate": {
+			"sFirst"					: "First",
+			"sLast"						: "Last",
+			"sNext"						: "Next",
+			"sPrevious"					: "Previous"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activate to sort column ascending",
+			"sSortDescending"			: ": activate to sort column descending"
+		}
+	}
+}
